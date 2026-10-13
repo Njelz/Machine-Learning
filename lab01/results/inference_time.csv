@@ -1,0 +1,3 @@
+model,median_inference_time_ms
+Logistic Regression (standardized),0.7560000522062182
+Random Forest,9.251850075088441

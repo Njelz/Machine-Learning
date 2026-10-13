@@ -1,0 +1,3 @@
+model,training_peak_rss_mib,training_increase_mib,inference_peak_rss_mib,inference_increase_mib
+Logistic Regression (standardized),105.234375,0.3515625,105.23828125,0
+Random Forest,105.546875,0.2734375,105.67578125,0.109375
