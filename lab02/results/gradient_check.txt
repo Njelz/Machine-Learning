@@ -1,0 +1,2 @@
+Width 16: loss=2.302557; 10/10 gradients have relative error < 1e-6; maximum relative error=2.963e-16
+Width 64: loss=2.302557; 10/10 gradients have relative error < 1e-6; maximum relative error=2.023e-16
