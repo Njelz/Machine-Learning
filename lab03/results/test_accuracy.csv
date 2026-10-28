@@ -1,0 +1,4 @@
+model,test_accuracy
+MLP,0.877900
+CNN,0.891700
+Attention,0.843400

@@ -1,0 +1,4 @@
+model,parameters,thop_macs_batch1,median_latency_batch1_ms,median_latency_batch128_ms
+MLP,235146,234752,0.323650,1.895000
+CNN,20490,1031744,0.964600,25.600000
+Attention,70794,50816,2.526700,18.590050
