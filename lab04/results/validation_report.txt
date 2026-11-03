@@ -1,0 +1,55 @@
+Rows: 48842
+Columns: 15
+
+Column checks:
+  Column order: PASS
+
+Data types:
+  age: int64 (PASS)
+  fnlwgt: int64 (PASS)
+  education-num: int64 (PASS)
+  capital-gain: int64 (PASS)
+  capital-loss: int64 (PASS)
+  hours-per-week: int64 (PASS)
+  workclass: category (PASS)
+  education: category (PASS)
+  marital-status: category (PASS)
+  occupation: category (PASS)
+  relationship: category (PASS)
+  race: category (PASS)
+  sex: category (PASS)
+  native-country: category (PASS)
+  income: category (PASS)
+
+Missing values and '?' markers:
+  age: nulls=0, '?' markers=0
+  workclass: nulls=2799, '?' markers=0
+  fnlwgt: nulls=0, '?' markers=0
+  education: nulls=0, '?' markers=0
+  education-num: nulls=0, '?' markers=0
+  marital-status: nulls=0, '?' markers=0
+  occupation: nulls=2809, '?' markers=0
+  relationship: nulls=0, '?' markers=0
+  race: nulls=0, '?' markers=0
+  sex: nulls=0, '?' markers=0
+  capital-gain: nulls=0, '?' markers=0
+  capital-loss: nulls=0, '?' markers=0
+  hours-per-week: nulls=0, '?' markers=0
+  native-country: nulls=857, '?' markers=0
+  income: nulls=0, '?' markers=0
+
+Range checks:
+  age [17, 90]: 0 violations (PASS)
+  hours-per-week [1, 99]: 0 violations (PASS)
+  capital-gain [0, 99999]: 0 violations (PASS)
+  capital-loss [0, 4356]: 0 violations (PASS)
+
+Exact duplicate rows: 52
+
+Income label counts:
+income
+<=50K    37155
+>50K     11687
+
+Validation summary:
+No schema or range violations found.

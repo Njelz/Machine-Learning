@@ -1,0 +1,52 @@
+dataset:
+  source: "UCI Adult via OpenML fetch_openml(name='adult', version=2, as_frame=True)"
+  name: "adult"
+  version: 2
+  rows: 48842
+  input_features: 14
+  target: "income"
+  positive_label: ">50K"
+  license: "CC BY 4.0"
+
+reproducibility:
+  random_seed: 42
+  test_size: 0.30
+  stratified_split: true
+
+cleaning:
+  duplicate_removal: "exact duplicates removed from training split only"
+  numeric_imputation: "median fitted on training split only"
+  categorical_imputation: "most frequent fitted on training split only"
+  numeric_outlier_clipping: "1st and 99th percentiles fitted on training split only"
+  test_handling: "test rows kept intact; transform with training-fitted preprocessor"
+
+features:
+  derived:
+    capital_net: "capital-gain - capital-loss"
+    hours_per_age: "hours-per-week / (age - 16)"
+
+model:
+  algorithm: "LogisticRegression"
+  max_iter: 1000
+  random_state: 42
+
+processed_data_hash:
+  algorithm: "SHA256"
+  representation: "canonical CSR train/test feature matrices and labels"
+  train_shape: [34165, 107]
+  test_shape: [14653, 107]
+  value: "2466e1ddc7a38840774254d74849f50297ead55494d346f850e479ceccc883e6"
+
+quality_checks:
+  manually_reviewed_rows: 50
+  impossible_or_inconsistent_values_found: 0
+  conflicting_duplicate_feature_groups: 5
+  rows_in_conflicting_groups: 10
+
+baseline:
+  without_derived_features:
+    accuracy: 0.8540
+    f1: 0.6601
+  with_derived_features:
+    accuracy: 0.8578
+    f1: 0.6696

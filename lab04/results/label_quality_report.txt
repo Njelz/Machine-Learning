@@ -1,0 +1,13 @@
+Adult label-quality check
+=========================
+Dataset rows: 48842
+Random sample size: 50
+Random seed: 42
+Feature groups with conflicting income labels: 5
+Rows belonging to those conflicting groups: 10
+
+Manual review completed:
+50 sampled rows checked against the lab schema and ranges.
+Impossible or inconsistent values found: 0.
+Blank categorical entries were treated as expected missing values.
+No rows were changed or removed by this quality check.
