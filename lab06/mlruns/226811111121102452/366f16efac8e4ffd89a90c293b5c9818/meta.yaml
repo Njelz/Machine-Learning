@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hp/Desktop/FIFTH SEMESTER/Machine Learning; SPEC Engineering
+  of Artificial Intelligence/Tasks & Projects/repo/lab06/mlruns/226811111121102452/366f16efac8e4ffd89a90c293b5c9818/artifacts
+end_time: 1795477296416
+entry_point_name: ''
+experiment_id: '226811111121102452'
+lifecycle_stage: active
+run_id: 366f16efac8e4ffd89a90c293b5c9818
+run_name: Adam_CosineAnnealingLR
+run_uuid: 366f16efac8e4ffd89a90c293b5c9818
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795476572685
+status: 3
+tags: []
+user_id: hp

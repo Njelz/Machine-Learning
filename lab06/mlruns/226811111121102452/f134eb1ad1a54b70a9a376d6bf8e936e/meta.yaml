@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hp/Desktop/FIFTH SEMESTER/Machine Learning; SPEC Engineering
+  of Artificial Intelligence/Tasks & Projects/repo/lab06/mlruns/226811111121102452/f134eb1ad1a54b70a9a376d6bf8e936e/artifacts
+end_time: 1795478036857
+entry_point_name: ''
+experiment_id: '226811111121102452'
+lifecycle_stage: active
+run_id: f134eb1ad1a54b70a9a376d6bf8e936e
+run_name: Adam_ReduceLROnPlateau
+run_uuid: f134eb1ad1a54b70a9a376d6bf8e936e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795477296475
+status: 3
+tags: []
+user_id: hp

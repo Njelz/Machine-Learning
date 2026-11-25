@@ -1,1 +1,4 @@
 data/
+__pycache__/
+*.py[cod]
+lab06/results/profile_trace.json

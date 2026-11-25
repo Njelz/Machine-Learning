@@ -1,0 +1,5 @@
+phase,time_ms,share_percent
+data_loading,55803.562,66.30
+forward_pass,13149.566,15.62
+backward_pass,13289.284,15.79
+optimizer_step,1928.547,2.29

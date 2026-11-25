@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hp/Desktop/FIFTH SEMESTER/Machine Learning; SPEC Engineering
+  of Artificial Intelligence/Tasks & Projects/repo/lab06/mlruns/603113364919044001/4e5a705fdc9a47d781606ff4f64ac66a/artifacts
+end_time: 1795465619409
+entry_point_name: ''
+experiment_id: '603113364919044001'
+lifecycle_stage: active
+run_id: 4e5a705fdc9a47d781606ff4f64ac66a
+run_name: lab06_fashionmnist_cnn
+run_uuid: 4e5a705fdc9a47d781606ff4f64ac66a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795465316985
+status: 3
+tags: []
+user_id: hp

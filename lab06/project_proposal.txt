@@ -1,0 +1,40 @@
+Efficient Shona Sentiment Analysis: Model Compression & Topic 
+Generalization 
+
+Student name: Tafadzwa Melisa Njela 
+Student ID: 73176 
+
+Problem and aim 
+This project will investigate whether a compact AI model can identify sentiment in Shona social
+media text and still perform well on topics that were not represented in its training data. This is 
+important because a model may learn topic-specific words instead of recognizing positive or 
+negative meaning more generally. The project will also measure whether compressing the 
+model makes it smaller and faster without greatly reducing its performance. 
+
+Dataset 
+I plan to use ShonaSenti, a published dataset of approximately 16,000 Shona tweets covering 
+eight topics. It includes sentiment labels. For this project, I will group the labels into three 
+classes: negative, neutral, and positive. I will use a topic-based split where possible, so that at 
+least one topic is held out for testing. This will test how well the model handles a topic it did not 
+see during training. 
+Dataset paper: https://www.computer.org/csdl/proceedings
+article/acii/2023/10388095/1TJmmhxm8Sc 
+Dataset repository: https://github.com/barletteM/Shona-Sentiment-Analysis 
+
+Planned method and optimization 
+I will train a compact text-classification model and compare it with a version compressed using 
+8-bit quantization. Quantization stores model weights with fewer bits, which can reduce model 
+size and may improve CPU inference speed. I will compare the compressed and uncompressed 
+versions using the same test data. 
+
+Success measures and deployment constraints 
+The main success metric will be macro-F1 on the held-out topic, with accuracy reported as a 
+secondary metric. My target is a macro-F1 of at least 0.60. I will also measure model file size 
+and median CPU prediction time. The final model must be no larger than 5 MB and take no 
+more than 50 ms to classify one text input. I will report the test setup and compare 
+performance before and after quantization. 
+
+Expected outcome 
+The project will show whether a compact, quantized model can perform Shona sentiment 
+classification within the required size and speed limits, and how well it generalizes to a topic it 
+has not seen during training.

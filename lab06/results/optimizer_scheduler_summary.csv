@@ -1,0 +1,7 @@
+optimizer,scheduler,test_loss,test_accuracy
+Adam,StepLR,0.2934701320171356,0.8917
+Adam,CosineAnnealingLR,0.2699711544752121,0.9024
+Adam,ReduceLROnPlateau,0.27719341063499453,0.8983
+SGD_momentum,StepLR,0.4362187602519989,0.8496
+SGD_momentum,CosineAnnealingLR,0.39171312737464903,0.8625
+SGD_momentum,ReduceLROnPlateau,0.37878646507263186,0.8621

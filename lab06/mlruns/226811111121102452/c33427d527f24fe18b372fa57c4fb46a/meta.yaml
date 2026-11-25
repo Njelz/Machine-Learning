@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hp/Desktop/FIFTH SEMESTER/Machine Learning; SPEC Engineering
+  of Artificial Intelligence/Tasks & Projects/repo/lab06/mlruns/226811111121102452/c33427d527f24fe18b372fa57c4fb46a/artifacts
+end_time: 1795480207425
+entry_point_name: ''
+experiment_id: '226811111121102452'
+lifecycle_stage: active
+run_id: c33427d527f24fe18b372fa57c4fb46a
+run_name: SGD_momentum_ReduceLROnPlateau
+run_uuid: c33427d527f24fe18b372fa57c4fb46a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1795479482219
+status: 3
+tags: []
+user_id: hp

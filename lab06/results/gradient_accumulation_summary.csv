@@ -1,0 +1,3 @@
+mode,test_accuracy
+direct_batch_256,0.8881
+batch_64_accumulation_4,0.8884

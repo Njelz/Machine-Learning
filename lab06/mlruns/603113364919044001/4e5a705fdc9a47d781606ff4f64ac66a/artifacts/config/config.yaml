@@ -1,0 +1,30 @@
+project:
+  name: lab06_fashionmnist_cnn
+  seed: 42
+
+dataset:
+  name: FashionMNIST
+  root: lab03/data
+  validation_size: 5000
+  batch_size: 128
+  num_workers: 0
+  normalize_mean: 0.2860
+  normalize_std: 0.3530
+
+model:
+  name: CNN
+
+training:
+  epochs: 5
+  optimizer: Adam
+  learning_rate: 0.001
+  weight_decay: 0.0
+  device: cpu
+
+checkpoint:
+  directory: lab06/checkpoints
+  filename: best_cnn.pt
+
+mlflow:
+  tracking_uri: "file:./lab06/mlruns"
+  experiment_name: lab06_fashionmnist
